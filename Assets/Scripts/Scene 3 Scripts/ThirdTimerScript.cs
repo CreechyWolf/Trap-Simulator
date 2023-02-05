@@ -35,7 +35,7 @@ public class ThirdTimerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (thirdPuzzleScript.completionCounterlvl3 == 4)
+        if (thirdPuzzleScript.completionCounterlvl3 >= 1)
         {
             TimerCanvas.SetActive(true);
 
@@ -59,6 +59,12 @@ public class ThirdTimerScript : MonoBehaviour
             {
                 timerText.text = textTime;
                 timerSlider.value = time;
+            }
+            if (thirdPuzzleScript.completionCounterlvl3 == 5)
+            {
+                timer = 0;
+                stopTimer = true;
+                TimerCanvas.SetActive(false);
             }
         }
         else

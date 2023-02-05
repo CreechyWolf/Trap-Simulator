@@ -35,7 +35,7 @@ public class SecTimerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (secPuzzleScript.completionCounterlvl2 == 3)
+        if (secPuzzleScript.completionCounterlvl2 >= 1)
         {
             TimerCanvas.SetActive(true);
 
@@ -51,7 +51,6 @@ public class SecTimerScript : MonoBehaviour
             {
                 stopTimer = true;
                 TimerCanvas.SetActive(false);
-
                 //reset scene
                 SceneManager.LoadScene("Level 2");
             }
@@ -60,7 +59,15 @@ public class SecTimerScript : MonoBehaviour
                 timerText.text = textTime;
                 timerSlider.value = time;
             }
+
+            if (secPuzzleScript.completionCounterlvl2 == 4)
+            {
+                timer = 0;
+                stopTimer = true;
+                TimerCanvas.SetActive(false);
+            }
         }
+
         else
         {
             TimerCanvas.SetActive(false);

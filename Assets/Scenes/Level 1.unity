@@ -331,12 +331,12 @@ MonoBehaviour:
     a door will open opposite of the puzzles.
 
 
-    The last symbol to be activated
-    will need to be done within 30 seconds or it will all be reset.
+    All symbols to be activated will
+    need to be done within 30 seconds or it will all be reset.
 
 
-    Left click
-    to shoot
+    Left click to
+    shoot
 
     WASD for movement
 
