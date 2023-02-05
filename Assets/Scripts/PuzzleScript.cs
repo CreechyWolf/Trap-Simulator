@@ -32,7 +32,6 @@ public class PuzzleScript : MonoBehaviour
             //open door
             BottomWall.SetActive(false);
             ExitRoom.SetActive(true);
-            print("success");
         }
     }
     void OnTriggerEnter(Collider other)

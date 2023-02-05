@@ -35,7 +35,6 @@ public class SecPuzzleScript : MonoBehaviour
         {
             //open door
             ExitDoor.SetActive(false);
-            print("success");
             ExitText.gameObject.SetActive(true);
             NextSceneBlock.gameObject.SetActive(true);
         }

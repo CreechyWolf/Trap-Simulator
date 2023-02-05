@@ -305,7 +305,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The key lies within...
+  m_text: 'The key lies within the riddle...
+
+
+    (Note, some symbols can be shot
+    AND melee''d...)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4262,8 +4266,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: From the storm rose the wind, striking fear from the clouds sorrow to hearts
-    of those born with wings, while the bullets struck through the hats of old.
+  m_text: From the Storm rose the Wind, Striking fear from other Storms alike. Bullets
+    struck through Hearts of those born with Wings, while also penetrating the Hats
+    of old without any restrictions.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4326,7 +4331,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -1003.1766, w: 0}
+  m_margin: {x: 0, y: 0, z: -1068.07, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
