@@ -305,7 +305,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The cipher demands you to shift by the 2nd Light...
+  m_text: 'This cipher demands you to look between the words...
+
+    The key lies
+    within letters capitalised...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4235,7 +4238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -708, y: 0}
+  m_AnchoredPosition: {x: -708, y: 209}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998648389
@@ -4258,8 +4261,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Uvcd Jgctv cnqpiukfg Dcvj, ujqqv Jcv htqo Jcpf cpf uvtkmg Uvqto htqo vjg
-    ucog. Ykpf dnqyu wrqp vjg Dnqqf ftqru.
+  m_text: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Stab eiusmod
+    tempor incididunt ut labore Heart et dolore magna aliqua. Alongside ut enim ad
+    minim Bath veniam, quis nostrud Shoot exercitation ullamco Hat laboris nisi ut
+    aliquip ex ea commodo From consequat. duis aute irure Hand dolor in reprehenderit
+    in voluptate And velit esse cillum Strike dolore eu fugiat nulla Storm pariatur.
+    excepteur From sint occaecat cupidatat non The proident, sunt in culpa Same qui
+    officia Bullet deserunt Descend mollit anim id est Wind laborum. felis donec
+    et odio Upon pellentesque diam volutpat commodo Blood sed egestas.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
